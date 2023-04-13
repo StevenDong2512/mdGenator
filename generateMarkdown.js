@@ -12,27 +12,32 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseSection(data.license)}
   ## Table of Contents
--[Description](#description)
--[Installation](#installation)
--[Usage](#usage)
--[Credits](#credits)
--[License](#license)
--[Contact](#contact)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+  - [Contact](#contact)
+  
 
-##Description
+## Description
 ${data.description}
-##Installation
+
+## Installation
 ${data.installation}
-##Usage
+
+## Usage
 ${data.usage}
-##Credits
+
+## Credits
 ${data.credits}
-##License
+
+## License
 ${data.license}
-##Contact
+
+## Contact
 ${data.username} on GitHub
 ${data.email} via email
-
 `;
 }
 
