@@ -12,6 +12,9 @@
 ## Description
 To generate a md file on terminal with node js 
 
+## Walk through video 
+https://drive.google.com/file/d/1zqSTrs69Da0POqHUot_Be1e287MkuIRt/view
+
 ## Installation
 npm, npm inquirer, node 
 
